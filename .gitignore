@@ -1,0 +1,14 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+.turbo/
+
+# Environment variables
+.env
+.env.*
+!.env.example
