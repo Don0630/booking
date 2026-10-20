@@ -125,11 +125,11 @@ function Login() {
             </Button>
 
             {/* Test credentials */}
-            <div className="p-3 rounded-lg bg-muted text-sm text-muted-foreground">
+            {/* <div className="p-3 rounded-lg bg-muted text-sm text-muted-foreground">
               <p className="font-medium mb-1">Test credentials:</p>
               <p>Email: john@example.com</p>
               <p>Password: password123</p>
-            </div>
+            </div> */}
           </CardContent>
         </Card>
       </div>
