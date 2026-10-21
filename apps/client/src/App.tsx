@@ -25,14 +25,14 @@ function App() {
             <BrowserRouter>
               <Routes>
                 <Route path="/login" element={<Login />} />
-                <Route path="/landing" element={<Landing />} />
+                <Route path="/" element={<Landing />} />
                 <Route
                   path="/*"
                   element={
                     <ProtectedRoute>
                       <Layout>
                         <Routes>
-                          <Route path="/" element={<Dashboard />} />
+                          <Route path="/dashboard" element={<Dashboard />} />
                           <Route path="/users" element={<Users />} />
                           <Route path="/users/:id" element={<UserDetail />} />
                           <Route path="/products" element={<Products />} />
